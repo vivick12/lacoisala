@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+background-color: #FDFAF1;
+}
+
+#header {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    height: 80px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.logo img {
+    max-height: 150px;
+
+    position: absolute;
+    /* Adicione position: absolute; para posicionar a logo absolutamente dentro do cabeçalho */
+    top: 80px;
+    /* Ajuste conforme necessário para centralizar verticalmente a logo */
+    left: 10%;
+    /* Ajuste conforme necessário para centralizar horizontalmente a logo */
+    transform: translate(-30%, -50%);
+    /* Para centralizar completamente a logo */
+
+}
+
+.menu {
+    display: flex;
+}
+
+
+.item1 {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #efc204; ;
+    font-size: 20px;
+    font-family: 'rushi';
+    margin-top: 30px;
+}
+
+.item {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:'rushi';
+    margin-top: 30px;
+}
+
+/* Adicione um pouco de estilo de hover para os itens do menu */
+.item:hover {
+    color: #efc204;
+    /* Ou qualquer cor desejada */
+}
+
+@font-face {
+    font-family: 'rushi';
+    src: url('imgPP/IntroRust-Base.otf')
+}
+
+.carousel-container {
+    margin-left: 200px;
+    border-radius: 20px;
+
+}
+
+img.slide {
+    border-radius: 20px;
+}
+
+
+.columnsfood-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.columnfood1 {
+    flex: 1;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.columnfood2 {
+    flex: 1;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.columnfood1 img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+
+.columnfood2 img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-right: 250px;
+    border-radius: 10px;
+}
+
+
+.colunfo1 {
+    font-family: 'rushi';
+    margin-left: 250px;
+
+}
+
+.colunfo2 {
+    font-family: 'rushi';
+    margin-right: 250px;
+
+}
+
+.explore {
+    margin-left: 620px;
+    margin-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+span {
+
+    font-family: 'rushi';
+    color: rgb(122, 17, 17);
+    font-size: 35px;
+}
+
+
+
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+    width: 1300px; 
+    margin-left: 300px;
+
+}
+
+.image-container {
+    position: relative;
+    margin-bottom: 13px;
+    margin-right: 0px;
+    width: 200px;
+    height: 200px; 
+   
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+.image:hover {
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.image-container:hover .hover-image {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.crownz{
+    height: 50px;
+    margin-left: 915px;
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+}
+
+.columnlogin {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.login-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #1e1e1e;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'inter';
+}
+
+.login-button:hover {
+    background-color: #efc204;
+}
+
+.textfooter {
+    color: white;
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    
+    text-align: justify;
+    margin-left: 180px;
+}
+
+.logosllogin img {
+    margin-top: 10px;
+}
+
+.columnlogin p {
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(imgPP/Inter-VariableFont_slnt\,wght.ttf);
+
+}

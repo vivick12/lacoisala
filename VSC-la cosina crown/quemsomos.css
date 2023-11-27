@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FDFAF1;
+}
+
+#header {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    height: 120px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.logo img {
+    max-height: 250px;
+
+    position: absolute;
+    /* Adicione position: absolute; para posicionar a logo absolutamente dentro do cabeçalho */
+    top: 80px;
+    /* Ajuste conforme necessário para centralizar verticalmente a logo */
+    left: 10%;
+    /* Ajuste conforme necessário para centralizar horizontalmente a logo */
+    transform: translate(-20%, -30%);
+    /* Para centralizar completamente a logo */
+
+}
+
+.menu {
+    display: flex;
+}
+
+
+.item1 {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #efc204;
+    
+    font-size: 20px;
+    font-family: 'rushi';
+    margin-top: 50px;
+}
+
+.item {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'rushi';
+    margin-top: 50px;
+}
+
+/* Adicione um pouco de estilo de hover para os itens do menu */
+.item:hover {
+    color: #efc204;
+    /* Ou qualquer cor desejada */
+}
+
+@font-face {
+    font-family: 'rushi';
+    src: url('imgPP/IntroRust-Base.otf')
+}
+
+.container{
+    margin-left:250px;
+}
+
+.titulo {
+    font-family:'rushi';
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 1050px;
+
+}
+
+h2{
+    font-family: 'rushi';
+}
+
+ 
+.p2 {
+    font-family: 'inter';
+    margin-bottom: 400px;
+    margin-right: 150px;
+  margin-top: -200px;
+}
+.p1 {
+    font-family: 'inter';
+    margin-bottom: 400px;
+    margin-left: 250px; 
+     text-align: right;
+}
+
+
+.fotita{
+    border-radius: 6px;
+    width:500px;
+    margin-left: 300px;
+    margin-bottom:400px ;
+}
+
+.fotita2 {
+    border-radius: 6px;
+    width: 500px;
+   
+}
+
+.chef1{
+    margin-top: -100px;
+    margin-left: 350px;
+border-radius: 6px;
+margin-bottom:90px ;
+}
+
+.chef2{
+    margin-top: 60px;
+    margin-left: 350px;
+    border-radius: 6px;
+    margin-bottom:90px ;
+}
+
+.texto{
+width: 1220px;
+margin-bottom: 100px;
+margin-left: 200px;
+text-align: center;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+}
+
+.columnlogin {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.login-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #1e1e1e;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'inter';
+}
+
+.login-button:hover {
+    background-color: #efc204;
+}
+
+.textfooter {
+    color: white;
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+font-family: 'inter';
+    text-align: justify;
+    margin-left: 180px;
+}
+
+.logosllogin img {
+    margin-top: 10px;
+}
+
+.columnlogin p {
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+    font-size: 24px;
+
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(imgPP/Inter-VariableFont_slnt\,wght.ttf);
+
+}
+
+
+
+.column {
+    flex: 1;
+    padding: 30px;
+    margin-top: 100px;
+     margin-bottom: 250px;
+  
+}
+
+.column2 {
+    flex: 1;
+    padding: 30px;
+  
+
+}
+
+
+.column img {
+    max-width: 100%;
+    
+}

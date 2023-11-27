@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FDFAF1;
+}
+
+#header {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    height: 80px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.logo img {
+    max-height: 150px;
+
+    position: absolute;
+    /* Adicione position: absolute; para posicionar a logo absolutamente dentro do cabeçalho */
+    top: 80px;
+    /* Ajuste conforme necessário para centralizar verticalmente a logo */
+    left: 10%;
+    /* Ajuste conforme necessário para centralizar horizontalmente a logo */
+    transform: translate(-30%, -50%);
+    /* Para centralizar completamente a logo */
+
+}
+
+.menu {
+    display: flex;
+}
+
+
+.item1 {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #efc204;
+    ;
+    font-size: 20px;
+    font-family: 'rushi';
+    margin-top: 30px;
+}
+
+.item {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'rushi';
+    margin-top: 30px;
+}
+
+/* Adicione um pouco de estilo de hover para os itens do menu */
+.item:hover {
+    color: #efc204;
+    /* Ou qualquer cor desejada */
+}
+
+@font-face {
+    font-family: 'rushi';
+    src: url('imgPP/IntroRust-Base.otf')
+}
+
+
+
+
+
+footer {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+}
+
+.columnlogin {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.login-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #1e1e1e;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'inter';
+}
+
+.login-button:hover {
+    background-color: #efc204;
+}
+
+.textfooter {
+    color: white;
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+
+    text-align: justify;
+    margin-left: 180px;
+}
+
+.logosllogin img {
+    margin-top: 10px;
+}
+
+.columnlogin p {
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+    font-size: 24px;
+
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(imgPP/Inter-VariableFont_slnt\,wght.ttf);
+
+}
+
+.kid {
+    margin-top: 60px;
+    margin-left: 670px;
+    width: 1150px;
+    height: auto;
+    margin-bottom: 200px;
+}
